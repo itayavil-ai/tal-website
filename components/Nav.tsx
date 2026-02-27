@@ -38,11 +38,7 @@ export default function Nav() {
     <nav id="nav" className={`nav${scrolled ? ' scrolled' : ''}`}>
       <div className="nav-inner">
         <Link href="/" className="nav-logo" aria-label="דף הבית">
-          <span className="logo-name">
-            <span className="logo-first">טל</span>
-            <span className="logo-rest"> נתן אבילביץ</span>
-          </span>
-          <span className="logo-rule" />
+          <span className="logo-name">טל נתן אבילביץ</span>
           <span className="logo-sub">עורכת דין</span>
         </Link>
 

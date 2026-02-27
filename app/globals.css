@@ -324,11 +324,8 @@ img { max-width: 100%; height: auto; }
   text-decoration: none;
   line-height: 1;
 }
-.logo-name { display: flex; align-items: baseline; gap: 0; }
-.logo-first { font-family: var(--font-noto-serif-he), serif; font-size: 1.2rem; font-weight: 700; color: #2c5282; letter-spacing: 0; }
-.logo-rest  { font-family: var(--font-noto-serif-he), serif; font-size: 1.2rem; font-weight: 400; color: #1e1c1a; }
-.logo-rule  { width: 100%; height: 1px; background: linear-gradient(to left, #4a7bb8, transparent); margin: 2px 0; }
-.logo-sub   { font-size: 0.7rem; font-weight: 300; color: #7a7673; letter-spacing: 0.1em; text-transform: uppercase; }
+.logo-name { font-size: 1.05rem; font-weight: 600; color: var(--ink); }
+.logo-sub  { font-size: 0.72rem; font-weight: 400; color: var(--ink); letter-spacing: 0.06em; }
 
 .nav-links {
   display: flex;
