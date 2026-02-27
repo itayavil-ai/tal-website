@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import AnimatedCounter from '@/components/AnimatedCounter'
 
 export const metadata: Metadata = {
   title: 'עו״ד טל נתן אבילביץ | עורכת דין ירושות וצוואות, דיני משפחה',
@@ -138,24 +137,12 @@ export default function HomePage() {
               <p style={{ color: '#7a7673', lineHeight: 1.75, marginBottom: '1.5rem', fontSize: '0.95rem' }}>
                 מתמחה בדיני ירושה, צוואות ועיזבונות. עם ניסיון של למעלה מ-15 שנה, טל ליוותה מאות משפחות בהליכים משפטיים רגישים ומורכבים.
               </p>
-              <div className="about-preview-stats">
-                <div className="stat-card">
-                  <span className="stat-num"><AnimatedCounter target={15} suffix="+" /></span>
-                  <span className="stat-label">שנות ניסיון</span>
-                </div>
-                <div className="stat-card">
-                  <span className="stat-num"><AnimatedCounter target={100} suffix="%" /></span>
-                  <span className="stat-label">ייצוג אישי</span>
-                </div>
-                <div className="stat-card">
-                  <span className="stat-num"><AnimatedCounter target={3} /></span>
-                  <span className="stat-label">ערכאות</span>
-                </div>
-                <div className="stat-card">
-                  <span className="stat-num"><AnimatedCounter target={7} /></span>
-                  <span className="stat-label">תחומי התמחות</span>
-                </div>
-              </div>
+              <ul className="about-highlights">
+                <li>ניסיון של למעלה מ-15 שנה בדיני ירושה, צוואות ועיזבונות</li>
+                <li>כל תיק מטופל אישית על ידי טל — ללא העברה לאחרים</li>
+                <li>ייצוג בכל הערכאות, מהרשם ועד בית המשפט המחוזי</li>
+                <li>פגישת ייעוץ ראשונית ללא עלות וללא התחייבות</li>
+              </ul>
               <Link href="/about" className="btn btn-primary">קראו עוד אודותינו ←</Link>
             </div>
           </div>
