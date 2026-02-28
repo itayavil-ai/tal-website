@@ -91,25 +91,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Timeline */}
-      <section className="timeline">
-        <div className="container">
-          <div className="section-header" data-animate="fade-up">
-            <p className="section-eyebrow">{about.timeline.eyebrow}</p>
-            <h2 className="section-title">{about.timeline.title}</h2>
-          </div>
-          <div className="timeline-list" data-animate="fade-up" data-delay="1">
-            {about.timeline.items.map(t => (
-              <div key={t.year} className="timeline-item">
-                <div className="timeline-year">{t.year}</div>
-                <h3>{t.title}</h3>
-                <p>{t.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Values */}
       <section className="about-values">
         <div className="container">
